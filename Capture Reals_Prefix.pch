@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Capture Reals' target in the 'Capture Reals' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

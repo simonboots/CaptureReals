@@ -1,0 +1,60 @@
+// !$*UTF8*$!
+{
+	1C3A8CF00D3AA5A400056428 /* Capture Reals */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Capture Reals";
+		sourceDirectories = (
+		);
+	};
+	1C3A8CFC0D3AA5C300056428 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1C3A8CFD0D3AA5C300056428 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 1C3A8CF00D3AA5A400056428 /* Capture Reals */;
+		activeTarget = 8D1107260486CEB800E47090 /* Capture Reals */;
+		codeSenseManager = 1C3A8CFD0D3AA5C300056428 /* Code sense */;
+		executables = (
+			1C3A8CF00D3AA5A400056428 /* Capture Reals */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 221947300;
+			PBXWorkspaceStateSaveDate = 221947300;
+		};
+		sourceControlManager = 1C3A8CFC0D3AA5C300056428 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Capture Reals */ = {
+		activeExec = 0;
+		executables = (
+			1C3A8CF00D3AA5A400056428 /* Capture Reals */,
+		);
+	};
+}
