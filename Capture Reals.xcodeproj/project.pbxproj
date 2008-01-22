@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3A8D0E0D3AA6F700056428 /* MyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A8D0D0D3AA6F700056428 /* MyDelegate.m */; };
+		1C3A8D100D3AA79400056428 /* flex.l in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A8D0F0D3AA79400056428 /* flex.l */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -17,6 +19,10 @@
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1C3A8D0C0D3AA6F700056428 /* MyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDelegate.h; sourceTree = "<group>"; };
+		1C3A8D0D0D3AA6F700056428 /* MyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDelegate.m; sourceTree = "<group>"; };
+		1C3A8D0F0D3AA79400056428 /* flex.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; path = flex.l; sourceTree = "<group>"; };
+		1C3A8D1A0D3AAA0F00056428 /* flextokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flextokens.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -41,6 +47,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1C3A8D0C0D3AA6F700056428 /* MyDelegate.h */,
+				1C3A8D0D0D3AA6F700056428 /* MyDelegate.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -88,6 +96,8 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* Capture Reals_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				1C3A8D0F0D3AA79400056428 /* flex.l */,
+				1C3A8D1A0D3AAA0F00056428 /* flextokens.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -167,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				1C3A8D0E0D3AA6F700056428 /* MyDelegate.m in Sources */,
+				1C3A8D100D3AA79400056428 /* flex.l in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
