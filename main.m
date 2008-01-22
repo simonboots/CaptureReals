@@ -2,7 +2,7 @@
 //  main.m
 //  Capture Reals
 //
-//  Created by Simon Stiefel on 13.01.08.
+//  Created by Simon Stiefel on 22.01.08.
 //  Copyright __MyCompanyName__ 2008. All rights reserved.
 //
 
